@@ -1,0 +1,31 @@
+.collapsibleContainer{
+    width: 100%;
+    display: grid;
+    gap: var(--padding-scale-2);
+    justify-items: center;
+    margin-top: var(--padding-scale-1);
+}
+
+.collapsibleWrapper{
+    width: 70%;
+}
+
+.collapsibleWrapper summary{
+    background-color: #161616;
+    font-weight: 500;
+    padding: var(--padding-scale-2); 
+}
+
+.collapsibleContentBody{
+    background-color: var(--uoc-teal);
+    padding: var(--padding-scale-2);
+    color: black;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 970px) {
+    .collapsibleFeatureContentBody ul{
+        display: grid;
+        gap: var(--padding-scale-2);
+    }
+}
